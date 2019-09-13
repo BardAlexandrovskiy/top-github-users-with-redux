@@ -2,6 +2,7 @@
   "name": "top-github-users",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://BardAlexandrovskiy.github.io/top-github-users-width-redux",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "extends": [
     "react-app",
@@ -45,6 +48,7 @@
   "devDependencies": {
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "redux-logger": "^3.0.6"
   }
