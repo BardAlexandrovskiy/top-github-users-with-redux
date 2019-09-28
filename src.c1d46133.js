@@ -154,4 +154,4 @@ var e=require("process");Object.defineProperty(exports,"__esModule",{value:!0}),
 },{}],"2u/B":[function(require,module,exports) {
 "use strict";var e=d(require("react")),r=d(require("react-dom")),t=require("react-redux"),u=require("./store/configureStore"),a=d(require("./containers/app/index"));function d(e){return e&&e.__esModule?e:{default:e}}require("./styles.css"),r.default.render(e.default.createElement(t.Provider,{store:u.store},e.default.createElement(a.default,null)),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","react-redux":"jYI/","./store/configureStore":"KqQd","./containers/app/index":"c5Zl","./styles.css":"fA5b"}]},{},["2u/B"], null)
-//# sourceMappingURL=/top-github-users-width-redux/src.c1d46133.js.map
+//# sourceMappingURL=/top-github-users-with-redux/src.c1d46133.js.map
