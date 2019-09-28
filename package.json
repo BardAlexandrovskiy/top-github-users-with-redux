@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "parcel ./public/index.html",
-    "build": "parcel build index.html --public-url /top-github-users-width-redux",
+    "build": "parcel build ./public/index.html --public-url /top-github-users-width-redux",
     "deploy": "gh-pages -d dist"
   },
   "browserslist": {
@@ -31,6 +31,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "cssnano": "^4.1.10",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0",
     "gh-pages": "^2.1.1",
