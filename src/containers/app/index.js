@@ -96,7 +96,6 @@ class App extends React.Component {
 }
 
 const mapStateToProps = store => {
-  console.log(store)
   return {
     inputSearch: store.inputSearch,
     users: store.users,
