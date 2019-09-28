@@ -2,7 +2,7 @@
   "name": "top-github-users",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://BardAlexandrovskiy.github.io/top-github-users-width-redux",
+  "homepage": "http://BardAlexandrovskiy.github.io/top-github-users-with-redux",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "parcel ./public/index.html",
-    "build": "parcel build ./public/index.html --public-url /top-github-users-width-redux",
+    "build": "rm -rf dist && parcel build ./public/index.html --public-url /top-github-users-with-redux",
     "deploy": "gh-pages -d dist"
   },
   "browserslist": {
