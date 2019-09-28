@@ -4,41 +4,43 @@ export const Container = styled.div`
   padding-top: 10px;
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
 
   @media (max-width: 736px) {
     padding: 3px 10px 0 10px;
+    width: 100%;
   }
 `
 
 export const Input = styled.input`
   border: 1px solid rgb(142, 162, 182);
-  border-right-color: transparent;
-  padding: 10px;
-  width: 300px;
-  border-radius: 50px 0 0 50px;
+  padding: 10px 50px;
+  border-radius: 50px;
   text-align: center;
+  width: 100%;
 
   &:focus {
     border-color: #24292e;
-    border-right-color: transparent;
-  }
-
-  &:focus + button {
-    border: 1px solid #24292e;
-    border-left-color: transparent;
   }
 `
 
 export const Button = styled.button`
-  background-color: #fff;
-  width: 40px;
-  padding-right: 5px;
-  border-radius: 0 50px 50px 0;
   cursor: pointer;
-  border: 1px solid rgb(142, 162, 182);
-  border-left-color: transparent;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  top: calc(50% + 5px);
+  transform: translateY(-50%);
 
   &:hover svg {
     opacity: 0.6;
+  }
+
+  @media (max-width: 736px) {
+    top: calc(50% + 1.5px);
+    right: 20px;
   }
 `
