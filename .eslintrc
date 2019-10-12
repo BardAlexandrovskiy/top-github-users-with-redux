@@ -1,5 +1,5 @@
 {
-  "extends": ["prettier"],
+  "extends": ["prettier", "airbnb"],
   "rules": {
     "jsx-quotes": [1, "prefer-double"]
   },
