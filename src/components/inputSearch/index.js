@@ -29,7 +29,7 @@ export default class InputSearch extends React.Component {
     return (
       <Container>
         <Input
-          placeholder="Введите город(на английском)"
+          placeholder="Enter your city"
           value={value}
           onChange={this.handleChange}
           onKeyDown={this.handlePressInputSearch}
